@@ -1,0 +1,24 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>Login</short-name>
+
+    <tag>
+        <description>
+            Login
+        </description>
+        <name>Login</name>
+        <tag-class>tag.LoginTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>firstName</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>email</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>
